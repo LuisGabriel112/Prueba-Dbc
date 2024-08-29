@@ -7,10 +7,9 @@
 
     <!-- Incluir CDN de Bootstrap 5 -->
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Incluir Hoja de Estilos -->
-
+    <link rel="stylesheet" href="assets/css/style.css">
     <!-- Incluir Archivos JS -->
 
     <title>Prueba BD</title>
@@ -18,7 +17,7 @@
 <body>
     <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Escribe aqui tu nombre</a>
+          <a class="navbar-brand" href="#">Luis Gabriel Venegas Saucedo</a>
         </div>
     </nav>
 
@@ -32,7 +31,7 @@
         <div class="row">
             <div class="col-md-8">
 
-                <div class="row" id="???">
+                <div class="row" id="content-list">
                     <!-- Cargar Cada uno de los Productos -->
                 </div>
 
@@ -43,15 +42,14 @@
                     <div class="card-header">
                         <h3>Carrito</h3>
                     </div>
-                    
-                    <div class="card-body" id="???">
+                    <div class="card-body" id="list-products">
                         <!-- Cargar Dinamicamente los Productos Seleccionados -->
                     </div>
 
                     <div class="card-footer text-muted">
                         <div class="row">
                             <div class="col-6">Total de la Compra:</div>
-                            <div class="col-6 text-end" id="???">$ 0</div>
+                            <div class="col-6 text-end" id="total">$ 0</div>
                         </div>
                     </div>
                 </div>
@@ -59,5 +57,8 @@
         </div>
 
     </div>
+    <script defer src="gateway/db.js" ></script>
+    <script defer src="js/main.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

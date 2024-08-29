@@ -7,7 +7,7 @@ const GetDB = ({ id }) => {
             name: 'Bocina Ultimate Ears Boom 3 Bluetooth - Night Black',
             category: 'Electrónica',
             price: 2399,
-            image: 'coloca la ruta de las imagenes',
+            image: "assets/img/img.png",
         },
         {
             _id: 2,
@@ -15,7 +15,7 @@ const GetDB = ({ id }) => {
             name: 'Reloj Inteligente Besoner B57 Bluetooth Deportivo Ip67',
             category: 'Electrónica',
             price: 595,
-            image: 'coloca la ruta de las imagenes',
+            image: "assets/img/img.png",
         },
         {
             _id: 3,
@@ -23,7 +23,7 @@ const GetDB = ({ id }) => {
             name: 'Secadora de Cabello Conair Mini de Pared',
             category: 'Hogar',
             price: 1499,
-            image: 'coloca la ruta de las imagenes',
+            image: "assets/img/img.png",
         },
         {
             _id: 4,
@@ -31,7 +31,7 @@ const GetDB = ({ id }) => {
             name: 'Consola XBOX ONE S All Digital 1 TB',
             category: 'Electrónica',
             price: 5999,
-            image: 'coloca la ruta de las imagenes',
+            image: "assets/img/img.png",
         },
         {
             _id: 5,
@@ -39,7 +39,7 @@ const GetDB = ({ id }) => {
             name: 'Control Xbox One Inalámbrico Rojo',
             category: 'Electrónica',
             price: 1499,
-            image: 'coloca la ruta de las imagenes',
+            image: "assets/img/img.png",
         },
         {
             _id: 6,
@@ -47,7 +47,7 @@ const GetDB = ({ id }) => {
             name: 'Audífonos Estéreo con Micrófono Headset Stereo',
             category: 'Electrónica',
             price: 1599,
-            image: 'coloca la ruta de las imagenes',
+            image: "assets/img/img.png",
         },
         {
             _id: 7,
@@ -55,7 +55,7 @@ const GetDB = ({ id }) => {
             name: 'Monitor LED BenQ GW2760HM',
             category: 'Electrónica',
             price: 5999,
-            image: 'coloca la ruta de las imagenes',
+            image: "assets/img/img.png",
         },
         {
             _id: 8,
@@ -63,7 +63,7 @@ const GetDB = ({ id }) => {
             name: 'Kit Escritorio y Librero Beta 83 x 36 x 135.1 IEV Café',
             category: 'Oficina',
             price: 3879,
-            image: 'coloca la ruta de las imagenes',
+            image: "assets/img/img.png",
         },
     ]
 
